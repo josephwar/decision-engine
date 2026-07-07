@@ -1,0 +1,10 @@
+{
+  "id": "L4-05",
+  "tier": "L4",
+  "options": [
+    { "id": "a", "label": "Route north", "reward": 40, "cost": 8, "success_prob": 0.8 },
+    { "id": "b", "label": "Route south", "reward": 39, "cost": 7, "success_prob": 0.8 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "b" }
+}

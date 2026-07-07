@@ -1,0 +1,10 @@
+{
+  "id": "L1-05",
+  "tier": "L1",
+  "options": [
+    { "id": "a", "label": "Enterprise deal", "reward": 1000, "cost": 100, "success_prob": 0.2 },
+    { "id": "b", "label": "Small deal", "reward": 500, "cost": 50, "success_prob": 0.15 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "a" }
+}

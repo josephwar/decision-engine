@@ -1,0 +1,10 @@
+{
+  "id": "L1-03",
+  "tier": "L1",
+  "options": [
+    { "id": "a", "label": "Big swing", "reward": 200, "cost": 50, "success_prob": 0.4 },
+    { "id": "b", "label": "Smaller swing", "reward": 150, "cost": 30, "success_prob": 0.3 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "a" }
+}

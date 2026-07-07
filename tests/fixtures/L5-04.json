@@ -1,0 +1,13 @@
+{
+  "id": "L5-04",
+  "tier": "L5",
+  "options": [
+    { "id": "a", "label": "Expand", "reward": 90, "cost": 25 },
+    { "id": "b", "label": "Hold", "reward": 70, "cost": 10 },
+    { "id": "c", "label": "Cut", "reward": 40, "cost": 5 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 90, "cost": 25 }
+  ],
+  "ground_truth": { "best_option_id": "a" }
+}

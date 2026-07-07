@@ -1,0 +1,16 @@
+{
+  "id": "L2-02",
+  "tier": "L2",
+  "options": [
+    { "id": "a", "label": "Failing route", "reward": 50, "cost": 5 },
+    { "id": "b", "label": "Reliable route", "reward": 40, "cost": 5 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 5 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 5 },
+    { "option_id": "b", "outcome": "success", "reward": 40, "cost": 5 },
+    { "option_id": "b", "outcome": "success", "reward": 40, "cost": 5 },
+    { "option_id": "b", "outcome": "partial", "reward": 20, "cost": 5 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

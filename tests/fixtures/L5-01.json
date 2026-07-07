@@ -1,0 +1,14 @@
+{
+  "id": "L5-01",
+  "tier": "L5",
+  "subject": "single data point",
+  "options": [
+    { "id": "a", "label": "New vendor", "reward": 100, "cost": 20 },
+    { "id": "b", "label": "No data", "reward": 80, "cost": 15 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 20 }
+  ],
+  "ground_truth": { "best_option_id": "a" },
+  "expect_flags": ["low_confidence"]
+}

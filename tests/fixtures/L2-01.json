@@ -1,0 +1,15 @@
+{
+  "id": "L2-01",
+  "tier": "L2",
+  "subject": "vendor with strong track record",
+  "options": [
+    { "id": "a", "label": "Proven vendor", "reward": 100, "cost": 10 },
+    { "id": "b", "label": "Unknown vendor", "reward": 100, "cost": 10 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 10 },
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 10 },
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 10 }
+  ],
+  "ground_truth": { "best_option_id": "a" }
+}

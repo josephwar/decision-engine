@@ -1,0 +1,19 @@
+{
+  "id": "L6-03",
+  "tier": "L6",
+  "options": [
+    { "id": "a", "label": "Risky", "reward": 150, "cost": 40 },
+    { "id": "b", "label": "Safe", "reward": 90, "cost": 20 },
+    { "id": "c", "label": "Middle", "reward": 110, "cost": 25 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 150, "cost": 40 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 40 },
+    { "option_id": "a", "outcome": "partial", "reward": 75, "cost": 40 },
+    { "option_id": "b", "outcome": "success", "reward": 90, "cost": 20 },
+    { "option_id": "b", "outcome": "success", "reward": 90, "cost": 20 },
+    { "option_id": "c", "outcome": "failure", "reward": 0, "cost": 25 },
+    { "option_id": "c", "outcome": "success", "reward": 110, "cost": 25 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

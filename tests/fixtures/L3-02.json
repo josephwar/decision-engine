@@ -1,0 +1,19 @@
+{
+  "id": "L3-02",
+  "tier": "L3",
+  "options": [
+    { "id": "a", "label": "Air", "reward": 80, "cost": 30 },
+    { "id": "b", "label": "Sea", "reward": 50, "cost": 10 },
+    { "id": "c", "label": "Rail", "reward": 60, "cost": 15 },
+    { "id": "d", "label": "Truck", "reward": 45, "cost": 8 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "partial", "reward": 40, "cost": 30 },
+    { "option_id": "b", "outcome": "success", "reward": 50, "cost": 10 },
+    { "option_id": "b", "outcome": "success", "reward": 50, "cost": 10 },
+    { "option_id": "c", "outcome": "success", "reward": 60, "cost": 15 },
+    { "option_id": "d", "outcome": "failure", "reward": 0, "cost": 8 },
+    { "option_id": "d", "outcome": "failure", "reward": 0, "cost": 8 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

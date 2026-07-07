@@ -1,0 +1,14 @@
+{
+  "id": "L2-03",
+  "tier": "L2",
+  "options": [
+    { "id": "a", "label": "Carrier A", "reward": 200, "cost": 50 },
+    { "id": "b", "label": "Carrier B", "reward": 180, "cost": 40 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "partial", "reward": 100, "cost": 50 },
+    { "option_id": "a", "outcome": "partial", "reward": 100, "cost": 50 },
+    { "option_id": "b", "outcome": "success", "reward": 180, "cost": 40 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

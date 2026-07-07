@@ -1,0 +1,18 @@
+{
+  "id": "L2-05",
+  "tier": "L2",
+  "options": [
+    { "id": "a", "label": "Method X", "reward": 90, "cost": 15 },
+    { "id": "b", "label": "Method Y", "reward": 85, "cost": 12 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 90, "cost": 15 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 15 },
+    { "option_id": "a", "outcome": "success", "reward": 90, "cost": 15 },
+    { "option_id": "b", "outcome": "success", "reward": 85, "cost": 12 },
+    { "option_id": "b", "outcome": "success", "reward": 85, "cost": 12 },
+    { "option_id": "b", "outcome": "success", "reward": 85, "cost": 12 },
+    { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 12 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "L6-02",
+  "tier": "L6",
+  "options": [
+    { "id": "a", "label": "Flip-flop A", "reward": 80, "cost": 12 },
+    { "id": "b", "label": "Flip-flop B", "reward": 80, "cost": 12 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 80, "cost": 12 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 12 },
+    { "option_id": "a", "outcome": "success", "reward": 80, "cost": 12 },
+    { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 12 },
+    { "option_id": "b", "outcome": "success", "reward": 80, "cost": 12 },
+    { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 12 }
+  ],
+  "ground_truth": { "best_option_id": "a" }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "L4-01",
+  "tier": "L4",
+  "subject": "near-tie decision",
+  "options": [
+    { "id": "a", "label": "Slight edge", "reward": 100, "cost": 10, "success_prob": 0.601 },
+    { "id": "b", "label": "Close second", "reward": 100, "cost": 10, "success_prob": 0.6 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "a" },
+  "expect_flags": ["low_margin"]
+}

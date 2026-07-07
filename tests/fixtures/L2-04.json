@@ -1,0 +1,18 @@
+{
+  "id": "L2-04",
+  "tier": "L2",
+  "options": [
+    { "id": "a", "label": "Risky supplier", "reward": 100, "cost": 20 },
+    { "id": "b", "label": "Stable supplier", "reward": 60, "cost": 10 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 20 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 20 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 20 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 20 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 20 },
+    { "option_id": "b", "outcome": "success", "reward": 60, "cost": 10 },
+    { "option_id": "b", "outcome": "success", "reward": 60, "cost": 10 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

@@ -1,0 +1,1 @@
+grokipedia-api>=0.3.1

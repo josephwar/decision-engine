@@ -1,0 +1,12 @@
+{
+  "id": "L3-05",
+  "tier": "L3",
+  "options": [
+    { "id": "a", "label": "Outsource", "reward": 300, "cost": 200, "success_prob": 0.8 },
+    { "id": "b", "label": "In-house", "reward": 250, "cost": 100, "success_prob": 0.7 },
+    { "id": "c", "label": "Hybrid", "reward": 280, "cost": 120, "success_prob": 0.75 },
+    { "id": "d", "label": "Delay", "reward": 50, "cost": 5, "success_prob": 0.95 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "c" }
+}

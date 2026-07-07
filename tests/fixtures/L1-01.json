@@ -1,0 +1,11 @@
+{
+  "id": "L1-01",
+  "tier": "L1",
+  "subject": "simple binary choice",
+  "options": [
+    { "id": "a", "label": "High reward safe", "reward": 100, "cost": 10, "success_prob": 0.8 },
+    { "id": "b", "label": "Moderate reward", "reward": 80, "cost": 5, "success_prob": 0.6 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "a" }
+}

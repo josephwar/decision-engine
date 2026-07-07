@@ -1,0 +1,19 @@
+{
+  "id": "L6-05",
+  "tier": "L6",
+  "options": [
+    { "id": "a", "label": "Campaign A", "reward": 60, "cost": 15 },
+    { "id": "b", "label": "Campaign B", "reward": 55, "cost": 12 },
+    { "id": "c", "label": "Campaign C", "reward": 50, "cost": 10 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 60, "cost": 15 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 15 },
+    { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 12 },
+    { "option_id": "b", "outcome": "success", "reward": 55, "cost": 12 },
+    { "option_id": "c", "outcome": "success", "reward": 50, "cost": 10 },
+    { "option_id": "c", "outcome": "success", "reward": 50, "cost": 10 },
+    { "option_id": "c", "outcome": "partial", "reward": 25, "cost": 10 }
+  ],
+  "ground_truth": { "best_option_id": "c" }
+}

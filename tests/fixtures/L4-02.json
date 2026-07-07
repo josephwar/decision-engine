@@ -1,0 +1,11 @@
+{
+  "id": "L4-02",
+  "tier": "L4",
+  "options": [
+    { "id": "a", "label": "Path 1", "reward": 75, "cost": 20, "success_prob": 0.55 },
+    { "id": "b", "label": "Path 2", "reward": 74, "cost": 20, "success_prob": 0.55 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "a" },
+  "expect_flags": ["low_margin"]
+}

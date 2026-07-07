@@ -1,0 +1,15 @@
+{
+  "id": "L4-03",
+  "tier": "L4",
+  "options": [
+    { "id": "a", "label": "Vendor X", "reward": 50, "cost": 5 },
+    { "id": "b", "label": "Vendor Y", "reward": 49, "cost": 5 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 50, "cost": 5 },
+    { "option_id": "a", "outcome": "success", "reward": 50, "cost": 5 },
+    { "option_id": "b", "outcome": "success", "reward": 49, "cost": 5 },
+    { "option_id": "b", "outcome": "partial", "reward": 25, "cost": 5 }
+  ],
+  "ground_truth": { "best_option_id": "a" }
+}

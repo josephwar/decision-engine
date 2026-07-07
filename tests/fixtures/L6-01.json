@@ -1,0 +1,19 @@
+{
+  "id": "L6-01",
+  "tier": "L6",
+  "subject": "conflicting outcomes",
+  "options": [
+    { "id": "a", "label": "Volatile option", "reward": 100, "cost": 15 },
+    { "id": "b", "label": "Steady option", "reward": 70, "cost": 10 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 15 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 15 },
+    { "option_id": "a", "outcome": "success", "reward": 100, "cost": 15 },
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 15 },
+    { "option_id": "b", "outcome": "success", "reward": 70, "cost": 10 },
+    { "option_id": "b", "outcome": "partial", "reward": 35, "cost": 10 },
+    { "option_id": "b", "outcome": "success", "reward": 70, "cost": 10 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}

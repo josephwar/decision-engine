@@ -1,0 +1,11 @@
+{
+  "id": "L3-03",
+  "tier": "L3",
+  "options": [
+    { "id": "a", "label": "Premium", "reward": 200, "cost": 80, "success_prob": 0.6 },
+    { "id": "b", "label": "Standard", "reward": 120, "cost": 20, "success_prob": 0.85 },
+    { "id": "c", "label": "Budget", "reward": 80, "cost": 5, "success_prob": 0.7 }
+  ],
+  "past_events": [],
+  "ground_truth": { "best_option_id": "b" }
+}

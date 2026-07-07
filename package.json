@@ -1,0 +1,15 @@
+{
+  "name": "decision-engine",
+  "version": "1.0.0",
+  "description": "Probabilistic decision engine with Grokipedia-grounded analysis",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/run.js",
+    "test:tier": "node tests/run.js --tier",
+    "case": "node scripts/run-case.js",
+    "research": "node scripts/grokipedia-context.js"
+  },
+  "dependencies": {
+    "grokipedia-api": "^0.1.0"
+  }
+}

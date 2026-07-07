@@ -1,0 +1,12 @@
+{
+  "id": "L5-05",
+  "tier": "L5",
+  "options": [
+    { "id": "a", "label": "Option with one fail", "reward": 50, "cost": 10 },
+    { "id": "b", "label": "No history", "reward": 45, "cost": 8 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 10 }
+  ],
+  "ground_truth": { "best_option_id": "b" }
+}
