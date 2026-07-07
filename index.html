@@ -64,9 +64,9 @@
       <section id="research-section" class="hidden">
         <h2>Grokipedia research</h2>
         <p style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.5rem">
-          Run <code>python scripts/grokipedia-context.py "your subject"</code> for live results.
-          Paste JSON below or use links after research.
+          Run in terminal: <code id="research-cmd">python scripts/grokipedia-context.py "subject"</code>
         </p>
+        <button class="btn btn-secondary btn-block" id="copy-cmd" type="button" style="margin-bottom:0.5rem">Copy research command</button>
         <div class="field">
           <label for="research-json">Paste Grokipedia JSON</label>
           <textarea id="research-json" rows="4" placeholder='{"articles": [...]}'></textarea>

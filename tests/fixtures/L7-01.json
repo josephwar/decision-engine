@@ -1,0 +1,15 @@
+{
+  "id": "L7-01",
+  "tier": "L7",
+  "subject": "expected value decision theory",
+  "options": [
+    { "id": "a", "label": "High EV option", "reward": 100, "cost": 10 },
+    { "id": "b", "label": "Low EV option", "reward": 50, "cost": 10 }
+  ],
+  "past_events": [],
+  "ground_truth": {
+    "best_option_id": "a",
+    "inferred_priors": { "a": 0.85, "b": 0.3 },
+    "grokipedia_topic": "Expected value"
+  }
+}

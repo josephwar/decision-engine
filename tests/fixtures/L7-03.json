@@ -1,0 +1,17 @@
+{
+  "id": "L7-03",
+  "tier": "L7",
+  "subject": "expected value of perfect information",
+  "options": [
+    { "id": "a", "label": "Gather more info first", "reward": 60, "cost": 20 },
+    { "id": "b", "label": "Act now without info", "reward": 90, "cost": 40 }
+  ],
+  "past_events": [
+    { "option_id": "a", "outcome": "success", "reward": 60, "cost": 20, "notes": "Info helped once" }
+  ],
+  "ground_truth": {
+    "best_option_id": "a",
+    "inferred_priors": { "b": 0.4 },
+    "grokipedia_topic": "Expected value of perfect information"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "L7-05",
+  "tier": "L7",
+  "subject": "expected return investment",
+  "options": [
+    { "id": "a", "label": "Bond-like", "reward": 40, "cost": 5 },
+    { "id": "b", "label": "Stock-like", "reward": 100, "cost": 30 }
+  ],
+  "past_events": [
+    { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 30, "notes": "Market downturn" }
+  ],
+  "ground_truth": {
+    "best_option_id": "a",
+    "inferred_priors": { "a": 0.92 },
+    "grokipedia_topic": "Expected return"
+  }
+}

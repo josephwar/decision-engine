@@ -1,0 +1,16 @@
+{
+  "id": "L7-04",
+  "tier": "L7",
+  "subject": "subjective expected utility",
+  "options": [
+    { "id": "a", "label": "Conservative", "reward": 70, "cost": 10 },
+    { "id": "b", "label": "Aggressive", "reward": 120, "cost": 35 },
+    { "id": "c", "label": "Moderate", "reward": 90, "cost": 20 }
+  ],
+  "past_events": [],
+  "ground_truth": {
+    "best_option_id": "c",
+    "inferred_priors": { "a": 0.75, "b": 0.35, "c": 0.8 },
+    "grokipedia_topic": "Subjective expected utility"
+  }
+}

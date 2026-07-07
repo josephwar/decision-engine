@@ -218,6 +218,16 @@ document.getElementById("import-file").addEventListener("change", (e) => {
 });
 document.getElementById("load-sample").addEventListener("click", loadSample);
 document.getElementById("show-research").addEventListener("click", showResearch);
+document.getElementById("copy-cmd").addEventListener("click", () => {
+  const subject = document.getElementById("subject").value.trim() || "your subject";
+  const cmd = `python scripts/grokipedia-context.py "${subject}"`;
+  navigator.clipboard.writeText(cmd);
+  document.getElementById("research-cmd").textContent = cmd;
+});
+document.getElementById("subject").addEventListener("input", (e) => {
+  const s = e.target.value.trim() || "subject";
+  document.getElementById("research-cmd").textContent = `python scripts/grokipedia-context.py "${s}"`;
+});
 
 addOption({ id: "a", label: "Option A", reward: 100, cost: 10, success_prob: 0.7 });
 addOption({ id: "b", label: "Option B", reward: 80, cost: 5, success_prob: 0.6 });

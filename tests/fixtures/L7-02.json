@@ -1,0 +1,15 @@
+{
+  "id": "L7-02",
+  "tier": "L7",
+  "subject": "expected utility hypothesis",
+  "options": [
+    { "id": "a", "label": "Risk-averse choice", "reward": 80, "cost": 15 },
+    { "id": "b", "label": "Risk-seeking choice", "reward": 150, "cost": 60 }
+  ],
+  "past_events": [],
+  "ground_truth": {
+    "best_option_id": "a",
+    "inferred_priors": { "a": 0.9, "b": 0.25 },
+    "grokipedia_topic": "Expected utility hypothesis"
+  }
+}
