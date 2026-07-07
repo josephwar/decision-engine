@@ -1,0 +1,17 @@
+{
+  "id": "L8-03",
+  "tier": "L8",
+  "natural_language": "Three ways to launch a product: premium launch ($80 cost, $200 reward, 60% success), standard ($25 cost, $120 reward, 85% success), or budget ($5 cost, $80 reward, 70% success). Best expected outcome?",
+  "ground_truth": {
+    "best_option_id": "b",
+    "parsed_case": {
+      "subject": "product launch strategy",
+      "options": [
+        { "id": "a", "label": "Premium launch", "reward": 200, "cost": 80, "success_prob": 0.6 },
+        { "id": "b", "label": "Standard launch", "reward": 120, "cost": 25, "success_prob": 0.85 },
+        { "id": "c", "label": "Budget launch", "reward": 80, "cost": 5, "success_prob": 0.7 }
+      ],
+      "past_events": []
+    }
+  }
+}

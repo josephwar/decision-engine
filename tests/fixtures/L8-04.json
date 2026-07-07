@@ -1,0 +1,17 @@
+{
+  "id": "L8-04",
+  "tier": "L8",
+  "natural_language": "I'm studying expected value for a business decision. Path 1: invest $30 for a possible $90 return. Path 2: invest $20 for a possible $50 return. I have no history yet but research suggests Path 1 succeeds about 75% and Path 2 about 40%. Which path?",
+  "ground_truth": {
+    "best_option_id": "a",
+    "parsed_case": {
+      "subject": "expected value",
+      "options": [
+        { "id": "a", "label": "Path 1", "reward": 90, "cost": 30 },
+        { "id": "b", "label": "Path 2", "reward": 50, "cost": 20 }
+      ],
+      "past_events": []
+    },
+    "inferred_priors": { "a": 0.75, "b": 0.4 }
+  }
+}

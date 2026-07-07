@@ -1,0 +1,23 @@
+{
+  "id": "L8-05",
+  "tier": "L8",
+  "natural_language": "Campaign A cost $15 and worked once but failed once on $60 rewards. Campaign B cost $10 and partially worked once. Campaign C cost $8 and succeeded twice on $50 rewards. Another run — which campaign?",
+  "ground_truth": {
+    "best_option_id": "c",
+    "parsed_case": {
+      "subject": "marketing campaign",
+      "options": [
+        { "id": "a", "label": "Campaign A", "reward": 60, "cost": 15 },
+        { "id": "b", "label": "Campaign B", "reward": 50, "cost": 10 },
+        { "id": "c", "label": "Campaign C", "reward": 50, "cost": 8 }
+      ],
+      "past_events": [
+        { "option_id": "a", "outcome": "success", "reward": 60, "cost": 15 },
+        { "option_id": "a", "outcome": "failure", "reward": 0, "cost": 15 },
+        { "option_id": "b", "outcome": "partial", "reward": 25, "cost": 10 },
+        { "option_id": "c", "outcome": "success", "reward": 50, "cost": 8 },
+        { "option_id": "c", "outcome": "success", "reward": 50, "cost": 8 }
+      ]
+    }
+  }
+}

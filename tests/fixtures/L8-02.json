@@ -1,0 +1,20 @@
+{
+  "id": "L8-02",
+  "tier": "L8",
+  "natural_language": "Vendor A charged $20 and succeeded twice delivering $90 value. Vendor B charged $12 and failed once. Both can deliver $80 value on the next order. Who should I use?",
+  "ground_truth": {
+    "best_option_id": "a",
+    "parsed_case": {
+      "subject": "vendor selection",
+      "options": [
+        { "id": "a", "label": "Vendor A", "reward": 80, "cost": 20 },
+        { "id": "b", "label": "Vendor B", "reward": 80, "cost": 12 }
+      ],
+      "past_events": [
+        { "option_id": "a", "outcome": "success", "reward": 90, "cost": 20 },
+        { "option_id": "a", "outcome": "success", "reward": 90, "cost": 20 },
+        { "option_id": "b", "outcome": "failure", "reward": 0, "cost": 12 }
+      ]
+    }
+  }
+}

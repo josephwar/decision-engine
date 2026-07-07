@@ -26,8 +26,9 @@ Open http://localhost:8080
 ### Run tests
 
 ```powershell
-python tests/run.py          # L1-L6 engine tests (100% gate)
+python tests/run.py            # L1-L6 engine tests (100% gate)
 python tests/run-grok-tier.py  # L7 Grok + Grokipedia tier (80% gate)
+python tests/run-l8-tier.py    # L8 natural-language tier (80% gate)
 ```
 
 ### Analyze a case
@@ -69,8 +70,10 @@ When `success_prob` is omitted, the engine uses Beta-Binomial updating from `pas
 | L4 | Near-tie margins |
 | L5 | Sparse history |
 | L6 | Conflicting outcomes |
+| L7 | Grokipedia-informed priors (Grok supplies probabilities) |
+| L8 | Natural-language decisions (parse → research → rank) |
 
-**Gate:** 100% accuracy on L1–L6 before advancing to Grok/Grokipedia tiers.
+**Gate:** 100% accuracy on L1–L6; ≥80% on L7 and L8 (accuracy + Grokipedia hit rate).
 
 ## Efficiency metrics
 

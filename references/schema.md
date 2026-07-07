@@ -72,3 +72,23 @@
 ```
 
 Retrieve via `python scripts/grokipedia-context.py "subject"`.
+
+## L8 natural-language fixture
+
+```json
+{
+  "tier": "L8",
+  "natural_language": "Plain English decision description...",
+  "ground_truth": {
+    "best_option_id": "a",
+    "parsed_case": {
+      "subject": "expected value",
+      "options": [...],
+      "past_events": [...]
+    },
+    "inferred_priors": { "a": 0.75 }
+  }
+}
+```
+
+`parsed_case` is what Grok should extract from `natural_language` before running the engine.
