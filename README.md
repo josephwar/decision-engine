@@ -2,6 +2,8 @@
 
 Compare two or more options using expected value, Bayesian success probabilities from past outcomes, and optional Grokipedia-grounded research.
 
+**Live app:** [https://josephwar.github.io/decision-engine/](https://josephwar.github.io/decision-engine/)
+
 ## Features
 
 - Rank options by **expected value** = (success_prob × reward) − cost
