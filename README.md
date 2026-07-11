@@ -26,9 +26,10 @@ Open http://localhost:8080
 ### Run tests
 
 ```powershell
-python tests/run.py            # L1-L6 engine tests (100% gate)
-python tests/run-grok-tier.py  # L7 Grok + Grokipedia tier (80% gate)
-python tests/run-l8-tier.py    # L8 natural-language tier (80% gate)
+python tests/run-all.py          # All tiers (L1-L8)
+python tests/run.py              # L1-L6 engine tests (100% gate)
+python tests/run-grok-tier.py    # L7 Grok + Grokipedia tier (80% gate)
+python tests/run-l8-tier.py      # L8 natural-language tier (80% gate)
 ```
 
 ### Analyze a case

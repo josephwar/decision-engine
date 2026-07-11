@@ -15,12 +15,19 @@ METRICS_DIR = Path(__file__).parent / "metrics"
 METRICS_FILE = METRICS_DIR / "runs.jsonl"
 
 
+ENGINE_TIERS = {"L1", "L2", "L3", "L4", "L5", "L6"}
+
+
 def load_fixtures(tier_filter: str | None = None) -> list:
     fixtures = []
     for path in sorted(FIXTURES_DIR.glob("*.json")):
         case = json.loads(path.read_text(encoding="utf-8"))
         case["_file"] = path.name
-        if tier_filter is None or case.get("tier") == tier_filter:
+        tier = case.get("tier", "")
+        if tier_filter:
+            if tier == tier_filter:
+                fixtures.append(case)
+        elif tier in ENGINE_TIERS:
             fixtures.append(case)
     return sorted(fixtures, key=lambda c: (c.get("tier", ""), c.get("id", "")))
 
